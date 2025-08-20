@@ -6,8 +6,8 @@
     "node": ">=18"
   },
   "scripts": {
-    "dev": "node src/server.js",
-    "start": "node src/server.js"
+    "dev": "node --enable-source-maps src/server.j",
+    "start": "node --enable-source-maps src/server.js"
   },
   "dependencies": {
     "axios": "^1.7.2",
@@ -15,6 +15,12 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mongoose": "^8.17.2",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "pino": "^9.9.0",
+    "pino-http": "^10.5.0",
+    "rotating-file-stream": "^3.2.6"
+  },
+  "devDependencies": {
+    "pino-pretty": "^13.1.1"
   }
 }

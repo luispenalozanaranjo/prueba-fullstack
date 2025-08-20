@@ -113,7 +113,7 @@
         "./imports"
       ],
       "#app-manifest": [
-        "./manifest/meta/0f8ac010-e61c-4a1a-906e-feec0aadebe5.json"
+        "./manifest/meta/0b4fe132-37e7-457e-9764-2074b77cd1cf.json"
       ],
       "#components": [
         "./components"
@@ -169,6 +169,7 @@
     "../dist",
     "../.data",
     "../node_modules",
+    "../../node_modules",
     "../node_modules/nuxt/node_modules",
     "../node_modules/@pinia/nuxt/node_modules",
     "../node_modules/@nuxt/devtools/node_modules",

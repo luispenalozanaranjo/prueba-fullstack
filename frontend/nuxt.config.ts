@@ -7,6 +7,11 @@ export default defineNuxtConfig({
             // SOLO PARA PRUEBAS LOCALES:
       basicUser: process.env.NUXT_PUBLIC_BASIC_USER || 'appUser',
       basicPass: process.env.NUXT_PUBLIC_BASIC_PASS || 'appPass123',
+      public: { logLevel: process.env.LOG_LEVEL ?? 'info' }
     },
   },
+    plugins: [
+    { src: '~/plugins/log.client', mode: 'client' },
+    { src: '~/plugins/api.client', mode: 'client' }
+  ],
 });

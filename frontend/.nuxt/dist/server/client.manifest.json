@@ -1,10 +1,10 @@
 {
-  "_KsFW5JDj.js": {
+  "_DzFAqr5F.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "KsFW5JDj.js",
+    "file": "DzFAqr5F.js",
     "name": "v3",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
@@ -15,13 +15,13 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DdUHzgII.js",
+    "file": "IFZEeAXu.js",
     "name": "error-404",
     "src": "node_modules/nuxt/dist/app/components/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_KsFW5JDj.js"
+      "_DzFAqr5F.js"
     ],
     "css": []
   },
@@ -36,13 +36,13 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Bo248hwH.js",
+    "file": "l0YvhlJa.js",
     "name": "error-500",
     "src": "node_modules/nuxt/dist/app/components/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_KsFW5JDj.js"
+      "_DzFAqr5F.js"
     ],
     "css": []
   },
@@ -57,7 +57,7 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BARFPmgz.js",
+    "file": "OXAW8xWK.js",
     "name": "entry",
     "src": "node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -72,7 +72,7 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "B4cbz7t3.js",
+    "file": "6AZEfS4A.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
@@ -85,7 +85,7 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "D3pqVkqw.js",
+    "file": "CMeCaEgS.js",
     "name": "_id_",
     "src": "pages/libro/[id].vue",
     "isDynamicEntry": true,
@@ -98,7 +98,7 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "lyLlyTYF.js",
+    "file": "CLiuBxIt.js",
     "name": "mi-biblioteca",
     "src": "pages/mi-biblioteca.vue",
     "isDynamicEntry": true,

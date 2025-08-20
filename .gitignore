@@ -1,27 +1,45 @@
-# Dependencias generales
+# --- Dependencias / locks ---
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
 
-# Logs, caches y artefactos de build
-logs/
-*.log
-coverage/
-dist/
-
-# Variables de entorno
+# --- Entornos / secretos ---
 .env
-.env.*
+.env.*.local
 
-# Nuxt 3 (frontend)
+# --- Logs (cualquier paquete) ---
+*.log
+logs/
+**/logs/
+
+# --- Build / caches comunes ---
+dist/
+build/
+coverage/
+.cache/
+.tmp/
+
+# --- Frontend (Nuxt) ---
 frontend/.nuxt/
 frontend/.output/
-frontend/dist/
+frontend/.vercel/
 frontend/.cache/
 
-# Optional editor metadata (VSCode, otros)
+# --- Backend (Express) ---
+backend-express/src/logs/
+backend-express/logs/
+
+# --- Editores / SO ---
 .vscode/
 .idea/
 .DS_Store
+Thumbs.db
+*.swp
+
+# --- Docker (opcional) ---
+*.pid
