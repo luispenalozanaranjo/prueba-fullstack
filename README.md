@@ -1,13 +1,7 @@
-## Prueba Fullstack — Book Reviews (Nuxt 3 + Express + MongoDB)
+
+# Prueba Fullstack — Book Reviews (Nuxt 3 + Express + MongoDB)
 
 Entrega lista para revisión. Este README explica **cómo ejecutar**, **probar** y **evaluar** el proyecto, alineado con los requisitos.
-
----
-
-## Levantar todo con Docker
-docker compose up --build
-# Front: http://localhost:3000
-# Back : http://localhost:3001/api
 
 ---
 
@@ -188,4 +182,3 @@ curl -u admin:secret -H "Content-Type: application/json"  -d '{"title":"Test Boo
 ---
 
 ¡Gracias por la revisión!
-
