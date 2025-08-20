@@ -1,4 +1,5 @@
 export default defineNuxtConfig({
+  nitro: { preset: 'netlify' }, 
   modules: ["@pinia/nuxt"],
   css: ["~/assets/styles.scss"],
   runtimeConfig: {
