@@ -156,7 +156,7 @@ async function save () {
         <button class="button" @click="save">Guardar en Mi Biblioteca</button>
       </div>
 
-      <div v-if="success" style="margin-top:8px;color:#86efac;">Guardado correctamente ✔</div>
+      <div v-if="success" style="margin-top:8px;color:#86efac;">Guardado correctamente, si quiere ver su registro, presione mi biblioteca ✔</div>
       <div v-else-if="lastError" class="card" style="margin-top:8px;color:#fca5a5;">
         Error del servidor: {{ lastError }}
       </div>
