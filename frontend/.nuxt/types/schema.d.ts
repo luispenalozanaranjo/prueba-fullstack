@@ -87,6 +87,10 @@ declare module 'nuxt/schema' {
    basicUser: string,
 
    basicPass: string,
+
+   public: {
+      logLevel: string,
+   },
   }
 }
 declare module 'vue' {
