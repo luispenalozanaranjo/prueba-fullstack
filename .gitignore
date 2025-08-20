@@ -1,0 +1,27 @@
+# Dependencias generales
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs, caches y artefactos de build
+logs/
+*.log
+coverage/
+dist/
+
+# Variables de entorno
+.env
+.env.*
+
+# Nuxt 3 (frontend)
+frontend/.nuxt/
+frontend/.output/
+frontend/dist/
+frontend/.cache/
+
+# Optional editor metadata (VSCode, otros)
+.vscode/
+.idea/
+.DS_Store
