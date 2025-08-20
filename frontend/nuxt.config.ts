@@ -10,8 +10,8 @@ export default defineNuxtConfig({
       public: { logLevel: process.env.LOG_LEVEL ?? 'info' }
     },
   },
-    plugins: [
+    /*plugins: [
     { src: '~/plugins/log.client', mode: 'client' },
     { src: '~/plugins/api.client', mode: 'client' }
-  ],
+  ],*/
 });
