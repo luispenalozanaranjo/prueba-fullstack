@@ -9,6 +9,7 @@ Entrega lista para revisión. Este README explica **cómo ejecutar**, **probar**
 docker compose up --build
 # Front: http://localhost:3000
 # Back : http://localhost:3001/api
+
 ---
 
 ## 🧱 Stack
