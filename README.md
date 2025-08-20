@@ -1,4 +1,4 @@
-# Prueba Fullstack — Book Reviews (Nuxt 3 + Express + MongoDB)
+## Prueba Fullstack — Book Reviews (Nuxt 3 + Express + MongoDB)
 
 Entrega lista para revisión. Este README explica **cómo ejecutar**, **probar** y **evaluar** el proyecto, alineado con los requisitos.
 
